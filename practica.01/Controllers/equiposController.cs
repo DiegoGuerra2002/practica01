@@ -72,7 +72,7 @@ namespace practica._01.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        //MEOWWWWWWWW
+        
         [HttpPut]
         [Route("actualizar/{id}")]
         public IActionResult ActualizarEquipo(int id, [FromBody] equipos equipoModificar)
